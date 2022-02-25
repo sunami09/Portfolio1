@@ -71,7 +71,7 @@ const AboutPage = () => {
                     <img src={astronaut} alt="spaceman" />
                 </Spaceman>
                 <Main>
-                    I'm a full-Stack developer located in India. I love to create simple yet beautiful websites with great user experience.
+                    I'm a full-Stack developer based in India. I love to create simple yet beautiful websites with great user experience.
                     <br /> <br />
                     I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to write blogs and read books.
                     <br /> <br />
