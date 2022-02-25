@@ -2,6 +2,9 @@ import { Route, Switch } from "react-router-dom"
 import { ThemeProvider } from "styled-components"
 import { lightTheme } from "./components/Themes"
 import GlobalStyle from "./globalStyles"
+
+
+//Import Components
 import Main from "./components/Main";
 import AboutPage from "./components/AboutPage";
 import BlogPage from "./components/BlogPage";
