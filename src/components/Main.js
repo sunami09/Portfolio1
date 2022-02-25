@@ -117,7 +117,7 @@ transition: height 0.5s ease, width 1s ease 0.5s;
 `
 
 const Main = () => {
-  const [click, setClick] = useState(false);
+  const [click, setClick] = useState(true);
 
   const handleClick = () => setClick(!click);
   return (
@@ -129,7 +129,7 @@ const Main = () => {
         <SocialIcons theme={click ? 'dark' : 'light'} />
         <Center click={click}>
           <YinYang onClick={() => handleClick()} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
-          <span>click here</span>
+          <span>CLICK HERE TO GET TO KNOW ME!!</span>
         </Center>
 
         <Contact target="_blank" to={{pathname:"mailto:sunamidasgupta@gmail.com"}}>
@@ -151,7 +151,7 @@ const Main = () => {
         </Contact>
 
         <BLOG to="/blog">
-          <motion.h2
+          <motion.h1
             initial={{
               y: -200,
               transition: { type: 'spring', duration: 1.5, delay: 1 }
@@ -164,10 +164,10 @@ const Main = () => {
             whileTap={{ scale: 0.9 }}
           >
             Blog
-          </motion.h2>
+          </motion.h1>
         </BLOG>
         <WORK to="/work" theme={click ? 'dark' : 'light'}>
-          <motion.h2
+          <motion.h1
             initial={{
               y: -200,
               transition: { type: 'spring', duration: 1.5, delay: 1 }
@@ -180,11 +180,11 @@ const Main = () => {
             whileTap={{ scale: 0.9 }}
           >
             Work
-          </motion.h2>
+          </motion.h1>
         </WORK>
         <BottomBar>
           <ABOUT to="/about" theme={click ? 'dark' : 'light'}>
-            <motion.h2
+            <motion.h1
               initial={{
                 y: 200,
                 transition: { type: 'spring', duration: 1.5, delay: 1 }
@@ -196,11 +196,11 @@ const Main = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              About.
-            </motion.h2>
+              About Me
+            </motion.h1>
         </ABOUT>
         <SKILLS to="/skills">
-            <motion.h2
+            <motion.h1
               initial={{
                 y: 200,
                 transition: { type: 'spring', duration: 1.5, delay: 1 }
@@ -213,7 +213,7 @@ const Main = () => {
               whileTap={{ scale: 0.9 }}
             >
               My Skills.
-            </motion.h2>
+            </motion.h1>
         </SKILLS>
         </BottomBar>
         
