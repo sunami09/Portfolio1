@@ -73,7 +73,7 @@ const AboutPage = () => {
                 <Main>
                     I'm a fullstack developer based in India. I love to create simple yet beautiful websites with great user experience.
                     <br /> <br />
-                    I'm interested in the whole journey of building a website. I Like trying new things to solve a problem. I love to write blogs and read books.
+                    I enjoy the whole journey of building a website. I like trying new things to solve a problem.
                     <br /> <br />
                     I believe everything is an Art when you put your consciousness in it. You can connect with me via social links on you left-hand side.
                 </Main>

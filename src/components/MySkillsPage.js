@@ -84,7 +84,7 @@ const MySkillsPage = () => {
                 <ParticleComponent theme='light' />
                 <Main>
                     <Title>
-                        <Design width={40} height={40} /> Designer
+                        <Design width={40} height={40} /> Front-End Developer
                     </Title>
                     <Description>
                         I love to create design which speaks, Keep it clean, minimal and simple.
