@@ -166,7 +166,7 @@ const Main = () => {
             Blog
           </motion.h2>
         </BLOG>
-        <WORK to="/work">
+        <WORK to="/work" theme={click ? 'dark' : 'light'}>
           <motion.h2
             initial={{
               y: -200,
@@ -183,7 +183,7 @@ const Main = () => {
           </motion.h2>
         </WORK>
         <BottomBar>
-        <ABOUT to="/about">
+          <ABOUT to="/about" theme={click ? 'dark' : 'light'}>
             <motion.h2
               initial={{
                 y: 200,

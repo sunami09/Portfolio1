@@ -13,7 +13,6 @@ position: fixed;
 left: 2rem;
 top: 2rem;
 z-index:3;
-text-decoration: none;
 `
 
 const LogoComponent = (props) => {
