@@ -55,7 +55,6 @@ const SoundBar = () => {
 
     const handleClick = () => {
         setClick(!click);
-
         if (!click) {
             ref.current.play();
         } else {
