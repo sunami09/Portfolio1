@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import PowerButton from '../subComponents/PowerButton'
 
 
 const MainContainer = styled.div`
@@ -26,7 +27,7 @@ const Main = () => {
   return (
     <MainContainer>
       <Container>
-        Main Component/Page
+        <PowerButton />
       </Container>
     </MainContainer>
   )
